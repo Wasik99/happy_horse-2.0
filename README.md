@@ -1,1 +1,1 @@
-# happy_horse-2.0
+# happyhorse

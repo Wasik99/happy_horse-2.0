@@ -1,0 +1,560 @@
+@media only screen and (min-width: 1100px){
+  .bottom-bar{
+    height: 53px;
+    background-color: #CCB587;
+    box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+}
+.actual-location{
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 75%;
+}
+.actual-location a{
+    font-weight: 500;
+    font-size: 20px;
+}
+.front-title{
+    margin-top: 100px;
+    color:#303030;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 100%;
+    /* or 128px */
+
+    letter-spacing: 0.1em;
+}
+.front-title_down{
+  font-weight: 300; 
+  letter-spacing: 25px; 
+  color: #EBC475;
+}
+.nauka-opis{
+    display: inline-flex;
+    width: 75%;
+    margin-top: 100px;
+}
+.nauka-text{
+    width: 35%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 150px;
+    text-align: justify;
+}
+.nauka-text h1{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.nauka-photo{
+    width: 65%;
+    padding-right: 50px;
+}
+.nauka-photo img{
+    border: 9px solid #CCB587;
+    margin-top: 30px;
+    height: 350px;
+    -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+}
+
+.line-thick{
+    margin: 0 auto;
+    border: 0;
+    border-top: 2px solid rgb(239, 233, 227);
+    margin-top: 100px;
+    width: 65%;
+}
+
+.cennik{
+    margin-top: 100px;
+    width: 75%;
+    display: inline-flex;
+    margin-bottom: 200px;
+}
+.cennik-text{
+    display: inline-flex;
+    width: 45%;
+}
+.uslugi{
+    text-align: left;
+    width: 70%;
+}
+.uslugi h1{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.uslugi h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+.kwoty{
+    padding-top: 88px;
+    width: 20%;
+}
+.kwoty h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+}
+.cennik-photo{
+    width: 50%;
+}
+.cennik-photo img{
+    border: 9px solid #CCB587;
+    margin-top: 30px;
+    height: 350px;
+    -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+}
+
+.grafik{
+    margin-top: 500px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 1200px;
+    /* background-color: aqua; */
+    background: conic-gradient(from 180deg at 50% 100%, rgba(0, 0, 0, 0.78) -0.43deg, #000000 89.95deg, rgba(0, 0, 0, 0.78) 359.57deg, #000000 449.95deg);
+    mix-blend-mode: normal;
+    box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+}
+.grafik-title{
+  display: inline-flex; 
+  width: 65%; 
+  margin-bottom: 50px;
+}
+.grafik-title img{
+  height:110px; 
+  margin-top: 40px; 
+  margin-right:20px ;
+}
+.grafik-title_up{
+  font-family: 'Lora', cursive; 
+  font-size: 50px; 
+  color:white; 
+  font-weight: 300; 
+}
+.grafik-title_down{
+  font-weight: 100; 
+  color: #EBC475; 
+  letter-spacing: 3px; 
+  margin-left: 1px;
+  line-height: 45px;
+}
+  .grafik-stos{
+    width: 1100px;
+    height: 300px;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .grafik-card-first{
+    margin: 5px;
+    font-size: 10px;
+    margin-left: 0;
+    display: inline-block;
+    /* float: left; */
+    width: 130px;
+    height: 250px;
+    color: white;
+    font-family: 'Lora', sans-serif;
+
+  }
+  .grafik-card{
+    display: inline-block;
+    margin: 3px;
+    margin: 0 auto; 
+    margin-right: 20px;
+    vertical-align: top;
+    width: 130px;
+    height: 250px;
+    transition: 0.5s;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+    box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+  }
+  .grafik-card:hover{
+    scale:1.2;
+    animation-duration: 1s;
+  }
+  .grafik-card h1{
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .grafik-card h2{
+    font-size: 15px;
+  }
+  .grafik-kafelek{
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -8px;
+    text-align:center;
+    cursor: default;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .show{
+    transition: 0.5s;
+    font-size: 20px;
+  }
+  .grafik-card hr{
+    border: 0;
+    border-top: 2px solid rgb(226, 218, 211);
+    width: 80%;
+  }
+  .grafik-kafelek-onetext{
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: default;
+  }
+  .grafik-text{
+    text-align: left;
+    clear:both;
+    padding-top: 60px;
+    padding-bottom:0px;
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+  }
+  
+  .instruktorzy{
+    width: 950px;
+    margin: 0 auto;
+    clear: right;
+    margin-top: 50px;
+    
+  }
+  .instruktorzy h1{
+    font-family: 'Lora', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color:white;
+    text-align: left;
+  }
+  .container-instruktorzy{
+    text-align: left;
+  }
+  .instr-kontakt{
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+    -moz-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+    box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+  }
+  .instr-kontakt img{
+    width: 200px;
+    border-radius: 20px 20px 35px 0px;
+    margin-bottom: 10px;
+  }
+  .instr-kontakt a{
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .bottom-bar{
+    margin-top: -50px;
+    height: 53px;
+    background-color: #CCB587;
+    box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+}
+.actual-location{
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 95%;
+}
+.actual-location a{
+    font-weight: 500;
+    font-size: 18px;
+}
+.front-title{
+    margin-top: 100px;
+    color:#303030;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    /* or 128px */
+
+    letter-spacing: 0.1em;
+}
+.front-title_down{
+  font-weight: 300; 
+  letter-spacing: 13px; 
+  color: #EBC475;
+}
+.nauka-opis{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  margin-top: 100px;
+}
+.nauka-text{
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.nauka-text h1{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.nauka-photo{
+    width: 100%;
+}
+.nauka-photo img{
+    border: 9px solid #CCB587;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: -5px;
+    -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+}
+
+.line-thick{
+    margin: 0 auto;
+    border: 0;
+    border-top: 3px solid rgb(239, 233, 227);
+    margin-top: 100px;
+    width: 65%;
+}
+
+.cennik{
+  margin: 0 auto;
+    margin-top: 70px;
+    width: 80%;
+    display: block;
+    margin-bottom: 200px;
+}
+.cennik-text{
+    display: inline-flex;
+    width: 100%;
+}
+.uslugi{
+    text-align: left;
+    width: 70%;
+}
+.uslugi h1{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.uslugi h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.kwoty{
+    text-align: right;
+    padding-top: 88px;
+    width: 30%;
+}
+.kwoty h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.cennik-photo{
+    width: 50%;
+    display: none;
+}
+.cennik-photo img{
+    border: 9px solid #CCB587;
+    margin-top: 30px;
+    height: 350px;
+    -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+}
+
+.grafik{
+    margin-top: 500px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 1300px;
+    background: conic-gradient(from 180deg at 50% 100%, rgba(0, 0, 0, 0.78) -0.43deg, #000000 89.95deg, rgba(0, 0, 0, 0.78) 359.57deg, #000000 449.95deg);
+    mix-blend-mode: normal;
+    box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+}
+.grafik-title{
+  display: inline-flex; 
+  width: 80%; 
+  margin-bottom: 50px;
+}
+.grafik-title img{
+  height:90px; 
+  margin-top: 40px; 
+  margin-right:20px ;
+}
+.grafik-title_up{
+  font-family: 'Lora', cursive; 
+  font-size: 50px; 
+  color:white; 
+  font-weight: 300; 
+}
+.grafik-title_down{
+  font-weight: 100; 
+  color: #EBC475; 
+  letter-spacing: 3px; 
+  margin-left: 1px;
+  line-height: 15px;
+}
+
+  .grafik-stos{
+    width: 100%;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .grafik-card-first{
+    margin-left: 10px;
+    font-size: 8px;
+    float: left;
+    width: 130px;
+    height: 250px;
+    color: white;
+    font-family: 'Lora', sans-serif;
+
+  }
+  .container-card{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 280px;
+    overflow-x: auto;
+    width: auto;
+  }
+  .grafik-card{
+    display: block;
+    margin: 3px;
+    /* margin: 0 auto; */
+    float: left;
+    min-width: 130px;
+    height: 250px;
+    transition: 0.5s;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+    box-shadow: 0px 0px 8px 0px rgba(165, 165, 165, 1);
+  }
+  .grafik-card h1{
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .grafik-card h2{
+    font-size: 15px;
+  }
+  .grafik-kafelek{
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -2px;
+    text-align:center;
+    line-height: 18px;
+    font-size:20px;
+    cursor: default;
+  }
+  .show{
+    transition: 0.5s;
+    font-size: 20px;
+  }
+  .grafik-card hr{
+    border: 0;
+    border-top: 2px solid rgb(226, 218, 211);
+    width: 80%;
+  }
+  .grafik-kafelek-onetext{
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: default;
+  }
+  .grafik-text{
+    text-align: left;
+    clear:both;
+    padding-top: 60px;
+    padding-bottom:30px;
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+  }
+  .instruktorzy{
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    clear: both;
+    text-align: left;
+  }
+  .container-instruktorzy{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 280px;
+    overflow-x: auto;
+    width: auto;
+  }
+  .instruktorzy h1{
+    font-family: 'Lora', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color:white;
+  }
+  .instr-kontakt{
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 20px;
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+    -moz-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+    box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+  }
+  .instr-kontakt img{
+    width: 200px;
+    border-radius: 20px 20px 35px 0px;
+    margin-bottom: 10px;
+  }
+  .instr-kontakt a{
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 10px;
+    
+  }
+}

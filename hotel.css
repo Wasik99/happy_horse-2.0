@@ -1,0 +1,147 @@
+.bottom-bar{
+    height: 53px;
+    background-color: #CCB587;
+    box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+}
+.actual-location{
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 75%;
+}
+.actual-location a{
+    font-weight: 500;
+    font-size: 20px;
+}
+.front-title{
+    margin-top: 100px;
+    color:#303030;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 100%;
+    /* or 128px */
+
+    letter-spacing: 40px;
+}
+.front-title_down{
+    font-weight: 300; 
+    letter-spacing:0px;
+    color: #EBC475;
+    margin-left: -40px;
+}
+.hotel-opis{
+    display: inline-flex;
+    width: 75%;
+    margin-top: 100px;
+}
+.hotel-text{
+    width: 45%;
+    font-size: 22px;
+    margin-left: 150px;
+    text-align: justify;
+}
+.hotel-text h1{
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.hotel-photo{
+    width: 65%;
+    padding-right: 50px;
+}
+.hotel-photo img{
+    border: 9px solid #CCB587;
+    margin-top: 30px;
+    height: 350px;
+    -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+}
+
+.line-thick{
+    margin: 0 auto;
+    border: 0;
+    border-top: 2px solid rgb(239, 233, 227);
+    margin-top: 100px;
+    width: 65%;
+}
+
+@media only screen and (max-width: 768px){
+    .bottom-bar{
+      margin-top: -50px;
+      height: 53px;
+      background-color: #CCB587;
+      box-shadow: 0px 7px 25px 12px rgba(0, 0, 0, 0.25);
+  }
+  .actual-location{
+      text-align: left;
+      margin: 0 auto;
+      padding-top: 10px;
+      width: 95%;
+  }
+  .actual-location a{
+      font-weight: 500;
+      font-size: 18px;
+  }
+  .front-title{
+      margin-top: 100px;
+      color:#303030;
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 100%;
+      margin-right: -5px;
+      /* or 128px */
+      letter-spacing: 0.3em;
+  }
+  .front-title_down{
+    font-weight: 300; 
+    margin-left: -20px;
+    letter-spacing: 0px; 
+    color: #EBC475;
+  }
+  .hotel-opis{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    margin-top: 100px;
+  }
+  .hotel-text{
+      width: 100%;
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 300;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-left: 0px;
+  }
+  .hotel-text h1{
+      font-family: 'Lora', serif;
+      font-weight: 300;
+      font-size: 40px;
+  }
+  .hotel-photo{
+      width: 100%;
+      margin-left: 0;
+  }
+  .hotel-photo img{
+      border: 9px solid #CCB587;
+      margin-top: 30px;
+      width: 100%;
+      margin-left: -5px;
+      -webkit-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+      box-shadow: 0px 0px 37px -11px rgba(66, 68, 90, 1);
+  }
+  
+  .line{
+      margin: 0 auto;
+      border: 0;
+      border-top: 3px solid rgb(239, 233, 227);
+      margin-top: 100px;
+      width: 65%;
+  }
+}

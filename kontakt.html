@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>HappyHorse</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="kontakt.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="img/horseicon.png">
+        <style>
+            .top-bar{
+                height: 120px;
+            }
+            .dropdown-content{
+                background-color: rgb(19, 19, 19);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="scrollTop"><img src="img/back.png"></div>
+        <div class="top-bar">
+            <div class="mobile-bar">
+                <img src="img/logo.png" class="logo">
+                <img src="img/menu.png" class="menu-icon" onclick="openNav()">
+            </div>
+            <div id="sidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <a>OFERTA</a>
+                <a href="nauka.html">&nbsp;&nbsp;&nbsp;NAUKA JAZDY</a>
+                <!-- <a href="hotel.html">&nbsp;&nbsp;&nbsp;HOTEL</a> -->
+                <a href="stajnia.html">NASZA STAJNIA</a>
+                <a href="#">KONTAKT</a>
+            </div>
+            <div class="navbar">
+                <img src="img/logo.png" class="logo">
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <div class="dropdown">
+                    <a class="dropbtn">OFERTA</a>
+                    <div class="dropdown-content">
+                      <a href="nauka.html">NAUKA JAZDY</a>
+                      <!-- <a href="hotel.html">HOTEL</a> -->
+                    </div>
+                  </div>
+                <a href="stajnia.html">NASZA STAJNIA</a>
+                <a href="#">KONTAKT</a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="actual-location"><a>HOME&nbsp;&nbsp;>&nbsp;&nbsp;KONTAKT</a></div>
+        </div>
+        <div class="front-title">KONTAKT<br></div>
+        <img src="img/Line2.png" class="line" style="margin-top:150px;" >
+        <img src="img/Line-mobile.png" class="line-mobile" style="margin-top: 50px;">
+        <div class="contact">
+            <div class="contact-text">
+                <h1>Skontaktuj się z nami</h1>
+                <div class="contact-text_block">
+                    <div class="icon"><img src="img/location.png"></div>
+                    <h2>ul.Moszczenicka 41, Raków</h2>
+                </div>
+                <div class="contact-text_block">
+                    <div class="icon"><img src="img/phone.png"></div>
+                    <h2 class="lineHeight-add">tel.: 507 274 463</h2>
+                </div>
+                <div class="contact-text_block">
+                    <div class="icon"><img src="img/email.png"></div>
+                    <h2>e-mail: ks.happyhorse@gmail.com</h2>
+                </div>
+                <a href="https://www.facebook.com/profile.php?id=100057429550846" style="text-decoration: none;" ><div class="contact-text_block">
+                    <div class="icon"><img src="img/fb.png"></div>
+                    <h2 class="lineHeight-add">Stajnia HappyHorse</h2>
+                </div></a>
+                <div class="contact-text_block">
+                    <h2 style="line-height: 30px; font-size: 20px;">*W celu umówienia się na jazdy, kontaktuj się z instruktorami (zakładka OFERTA > NAUKA JAZDY)</h2>
+                </div>
+            </div>
+            <div class="contact-location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.524112346232!2d19.733474851304326!3d51.448532979525574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47198a215510ccf7%3A0x38e8d4bbea8b8406!2sHappyHorse!5e0!3m2!1spl!2spl!4v1664925193010!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <div class="foot">
+            <div class="foot-inside">
+                <div class="foot-data">
+                    <h2>HappyHorse</h2>
+                    <h2>Adres: Moszczenicka 41, 97-310 Raków</h2>
+                    <h2>Telefon: 507 274 463</h2>
+                </div>
+                <div class="open-time">
+                    <div class="days">
+                        <h2>Godziny:</h2> 
+                        <h2>poniedziałek</h2>
+                        <h2>wtorek</h2>
+                        <h2>środa</h2>
+                        <h2>czwartek</h2>
+                        <h2>piątek</h2>
+                        <h2>sobota</h2>
+                        <h2>niedziela</h2>
+
+                    </div>
+                    <div class="hours">
+                        <h2>&nbsp;</h2>
+                        <h2>Zamknięte</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/upbutton.js"></script>
+    <script src="js/nav.js"></script>
+</html>

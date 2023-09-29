@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>HappyHorse</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="img/horseicon.png">
+        <script src="js/showElements.js"></script>
+    </head>
+    <body>
+        <div id="scrollTop" class="preview"><img src="img/back.png"></div>
+        <div class="mobile-bar">
+            <img src="img/logo.png" class="logo">
+            <img src="img/menu.png" onclick="openNav()" class="menu-icon">
+        </div>
+        <div id="sidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">STRONA GŁÓWNA</a>
+            <a>OFERTA</a>
+            <a href="nauka.html">&nbsp;&nbsp;&nbsp;NAUKA JAZDY</a>
+            <!-- <a href="hotel.html">&nbsp;&nbsp;&nbsp;HOTEL</a> -->
+            <a href="stajnia.html">NASZA STAJNIA</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </div>
+        <div class="top-bar">
+            <div id="navbar_id" class="preview">
+                <img src="img/logo.png" class="logo">
+                <a>STRONA GŁÓWNA</a>
+                <div class="dropdown">
+                    <a class="dropbtn">OFERTA</a>
+                    <div class="dropdown-content">
+                      <a href="nauka.html">NAUKA JAZDY</a>
+                      <!-- <a href="hotel.html">HOTEL</a> -->
+                    </div>
+                  </div>
+                <a href="stajnia.html">NASZA STAJNIA</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </div>
+            <div id="container_id" class="preview">
+                <div class="title">
+                    <h1>HappyHorse</h1>
+                    <h2>STAJNIA Z KLIMATEM</h2>
+                </div>
+                <div class="kon-title"></div>
+            </div>  
+        </div>
+        <div id="onas_id" class="preview">
+            <div class="photo-onas">
+                <img src="img/webphoto1.jpg">
+            </div>
+            <div class="text-onas">
+                <h1>O nas</h1>
+                <h2>Stajnia prowadzona jest przez ludzi związanych z końmi „od zawsze”, dla których dobro koni i bezpieczeństwo jeźdźców jest najważniejsze. Nasze zamiłowanie zarówno do koni jak i całego sportu jeździeckiego potwierdzają nadane nam uprawnienia.<br>
+                <br> Mieścimy się w Rakowie (8 km. od Piotrkowa Trybunalskiego).
+                Posiadamy duże, bezpieczne padoki trawiaste dla koni, halę, piaszczyste i trawiaste place do jazdy, urokliwe tereny, przyjazną atmosferę ;)  </h2>    
+            </div>
+        </div>
+        <div class="kwal">
+            <img src="img/Line.png" class="line">
+            <img src="img/Line-mobile.png" class="line-mobile">
+            <h1>Nasze kwalifikacje</h1>
+            <div id="kwal-content_id" class="preview">
+                
+                <div class="kwal-left">
+                    <div class="kwal-blok">
+                        <div class="star"><img src='img/Star.png'></div>
+                        <div class="kwal-text"><h2>TECHNIK HODOWCA KONI</h2></div>
+                    </div>
+                    <div class="kwal-blok">
+                        <div class="star"><img src='img/Star.png'></div>
+                        <div class="kwal-text"><h2>INSTRUKTOR REKREACJI RUCHOWEJ ZE SPECJALNOŚCIĄ JAZDA KONNA</h2></div>
+                    </div>
+                    <div class="kwal-blok">
+                        <div class="star"><img src='img/Star.png'></div>
+                        <div class="kwal-text"><h2>SĘDZIA JEŹDZIECTWA (UJEŻDŻANIE)</h2></div>
+                    </div>
+                    <div class="kwal-blok">
+                        <div class="star"><img src='img/Star.png'></div>
+                        <div class="kwal-text"><h2>TECHNIK WETERYNARII</h2></div>
+                    </div>
+                </div>
+                <div class="kwal-right">
+                    <img src="img/DSC_0560.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="gallery-text">
+            <img src="img/horsehead.png">
+            <h1>NASZE<br><a style="font-weight: 100; color: #EBC475; letter-spacing: 3px; margin-left: 1px;">KONIE</a></h1>
+        </div>
+        <div class="line-gallery">
+            <img src="img/Line.png" class="line">
+            <img src="img/Line-mobile.png" class="line-mobile">
+        </div>
+        <script src="SwiperBox.js">
+            myItems = [
+                '<div class="myitem"><img src="img/konie/1.jpg" /></div>',
+                '<div class="myitem"><img src="img/konie/2.jpg" /></div>',
+                '<div class="myitem"><img src="img/konie/3.jpg" /></div>'
+            ]
+
+            var mySwipe = new SwiperBox({
+            items: myItems
+            });
+
+            mySwipe.HTMLElement.style.width = "400px";
+            mySwipe.HTMLElement.classList.add("mygal");
+            document.getElementById("example").appendChild(mySwipe.HTMLElement);
+
+            mySwipe.onClick = function(index,elem) {
+            alert("clicked on index"+index);
+            }
+        </script> -->
+        
+        <div class="blank"></div>
+        <div class="foot">
+            <div class="foot-inside">
+                <div class="foot-data">
+                    <h2>HappyHorse</h2>
+                    <h2>Adres: Moszczenicka 41, 97-310 Raków</h2>
+                    <h2>Telefon: 507 274 463</h2>
+                </div>
+                <div class="open-time">
+                    <div class="days">
+                        <h2>Godziny:</h2> 
+                        <h2>poniedziałek</h2>
+                        <h2>wtorek</h2>
+                        <h2>środa</h2>
+                        <h2>czwartek</h2>
+                        <h2>piątek</h2>
+                        <h2>sobota</h2>
+                        <h2>niedziela</h2>
+
+                    </div>
+                    <div class="hours">
+                        <h2>&nbsp;</h2>
+                        <h2>Zamknięte</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/upbutton.js"></script>
+    <script src="js/nav.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('.slideshow').cycle({
+                fx: 'fade',
+                speed: 1000,
+                timeout: 5000,
+                next: '#next',
+                prev: '#prev'
+            });
+            });
+
+        
+    </script>
+</html>

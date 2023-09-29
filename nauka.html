@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>HappyHorse</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="nauka.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="img/horseicon.png">
+        <style>
+            .top-bar{
+                height: 120px;
+            }
+            .dropdown-content{
+                background-color: rgb(19, 19, 19);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="scrollTop"><img src="img/back.png"></div>
+        <div class="top-bar">
+            <div class="mobile-bar">
+                <img src="img/logo.png" class="logo">
+                <img src="img/menu.png" class="menu-icon" onclick="openNav()">
+            </div>
+            <div id="sidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <a>OFERTA</a>
+                <a href="#">&nbsp;&nbsp;&nbsp;NAUKA JAZDY</a>
+                <!-- <a href="hotel.html">&nbsp;&nbsp;&nbsp;HOTEL</a> -->
+                <a href="stajnia.html">NASZA STAJNIA</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </div>
+            <div class="navbar">
+                <img src="img/logo.png" class="logo">
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <div class="dropdown">
+                    <a class="dropbtn">OFERTA</a>
+                    <div class="dropdown-content">
+                      <a href="#">NAUKA JAZDY</a>
+                      <!-- <a href="hotel.html">HOTEL</a> -->
+                    </div>
+                  </div>
+                <a href="stajnia.html">NASZA STAJNIA</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="actual-location"><a>HOME > OFERTA > NAUKA JAZDY</a></div>
+        </div>
+        <div class="front-title">NAUKA<br><a class="front-title_down">JAZDY</a></div>
+        <img src="img/Line2.png" class="line" >
+        <img src="img/Line-mobile.png" class="line-mobile" style="margin-top: 50px;">
+        <div class="nauka-opis">
+            <div class="nauka-text">
+                <h1>Nauka jazdy</h1>
+                <a>Stajnia HappyHorse oferuje naukę jazdy konnej dla dzieci, młodzieży i dorosłych. Jazdy prowadzone są przez wykwalifikowaną instruktorkę, zawodniczkę, pedagoga z pozytywnym i profesjonalnym podejściem zarówno do dzieci jak i dorosłych. Przygotowujemy do egzaminów na odznaki jeździeckie. <br><br>Jeśli chcesz aby Twoje dziecko miało pasję w życiu, hobby które nauczy je odpowiedzialności i troski o żywe istoty, albo sam chcesz poznać świat tych przepięknych zwierząt - zapraszamy do naszej stajni!
+            </a></div>
+            <div class="nauka-photo"><img src="img/naukajazdy.jpg"></div>
+        </div>
+        <div class="line-thick"></div>
+        <div class="cennik">
+            <div class="cennik-photo"><img src="img/cennik.jpg"></div>
+            <div class="cennik-text">
+                <div class="uslugi">
+                    <h1>Cennik</h1>
+                    <h2>Godzina jazdy</h2>
+                    <h2>Godzina jazdy w karnecie*</h2>
+                    <h2>Lonża**</h2>
+                    <h2>Oprowadzka 10min</h2>
+                    <h2>Teren 1,5 godziny</h2>
+                    <h2>Jazda indywidualna</h2>
+                    <h2>Trening konia(m-c)***</h2>
+                    <h2 style="font-size:20px;"><br><br>*karnet 10 jazd do zrealizowania przez 2 m-ce<br>**(30min + nauka czyszczenia)<br>*** cena wraz z miesięcznym utrzymaniem konia w pensjonacie</h2>
+                </div>
+                <div class="kwoty">
+                    <h2>60zł</h2>
+                    <h2>50zł</h2>
+                    <h2>50zł</h2>
+                    <h2>10zł</h2>
+                    <h2>120zł</h2>
+                    <h2>100zł</h2>
+                    <h2>2000zł</h2>
+                </div>
+            </div>
+            
+        </div>
+        <div class="grafik">
+            <div  class="grafik-title">
+                <img src="img/calendar.png">
+                <h1 class="grafik-title_up">GRAFIK<br><a class="grafik-title_down">PRACY</a></h1>  
+            </div>
+            
+            <div class="grafik-stos">
+                <div class="container-card">
+                    <div class="grafik-card-first" style="text-align:right;">
+                        <h2 style="padding-top:50px">RANO</h2>
+                        <h2 style="padding-top:25px">PO POŁUDNIU</h2>
+                        <h2 style="padding-top:25px">LONŻA/<br>MAŁY PLAC</h2>
+                    </div> 
+                    <div class="grafik-card">
+                        <h1>Wtorek</h1>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext"><a class="Nina">Nina</a></div>
+                        <hr/>
+                        <div class="grafik-kafelek"><a class="Iza">Iza</a><br><a class="Nina">Nina</a></div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext"><a class="Nina">Nina</a></div>
+                    </div>   
+                    <div class="grafik-card">
+                        <h1>Środa</h1>
+                        <hr/>
+                        <div class="grafik-kafelek"></div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Iza</div>
+                        <hr/>
+                        <div class="grafik-kafelek"></div>
+                    </div>   
+                    <div class="grafik-card">
+                        <h1>Czwartek</h1>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Martyna</div>
+                        <hr/>
+                        <div class="grafik-kafelek">Iza<br>Martyna</div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Martyna</div>
+                    </div>   
+                    <div class="grafik-card">
+                        <h1>Piątek</h1>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Nina</div>
+                        <hr/>
+                        <div class="grafik-kafelek">Nina<br>Julia</div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Nina</div>
+                    </div>   
+                    <div class="grafik-card">
+                        <h1>Sobota</h1>
+                        <hr/>
+                        <div class="grafik-kafelek">Nina<br>Martyna</div>
+                        <hr/>
+                        <div class="grafik-kafelek">Nina<br>Martyna</div>
+                        <hr/>
+                        <div class="grafik-kafelek">Nina<br>Martyna</div>
+                    </div>   
+                    <div class="grafik-card">
+                        <h1>Niedziela</h1>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Iza</div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Iza</div>
+                        <hr/>
+                        <div class="grafik-kafelek grafik-kafelek-onetext">Magda</div>
+                    </div>
+                    <div class="grafik-card" style="visibility: hidden;">
+
+                    </div>
+                </div>
+            </div>
+            <div class="instruktorzy">
+                <h1>Kontakty do instruktorów</h1>
+                <div class="container-instruktorzy">
+                <div class="instr-kontakt" onmouseover="showOn()" onmouseleave="showOff()">
+                    <img src="img/instruktorzy/Martyna.jpg">
+                    <a><b>Martyna</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 784 390 145</a>
+                </div>
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/Iza.jpg">
+                    <a><b>Iza</b> (kierownik)</a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 507 274 463</a>
+                </div>
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/nina.jpg">
+                    <a><b>Nina</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 792 920 979</a>
+                </div> 
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/julia.jpg">
+                    <a><b>Julia</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 792 920 979</a>
+                </div>
+                </div>
+                <div class="grafik-text">W sprawie zapisów na dany termin prosimy o kontakt z instruktorem prowadzącym wtedy zajęcia.<br>
+                    Przy problemach z dodzwonieniem się prosimy o SMS :D ogarniemy.<br><br>
+                    W sprawach 'innych' lub w razię wątpliwości prosimy o kontakt z kierownikiem stajni - <b>Panią Izą</b>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blank">
+        </div>
+        <div class="foot">
+            <div class="foot-inside">
+                <div class="foot-data">
+                    <h2>HappyHorse</h2>
+                    <h2>Adres: Moszczenicka 41, 97-310 Raków</h2>
+                    <h2>Telefon: 507 274 463</h2>
+                </div>
+                <div class="open-time">
+                    <div class="days">
+                        <h2>Godziny:</h2> 
+                        <h2>poniedziałek</h2>
+                        <h2>wtorek</h2>
+                        <h2>środa</h2>
+                        <h2>czwartek</h2>
+                        <h2>piątek</h2>
+                        <h2>sobota</h2>
+                        <h2>niedziela</h2>
+
+                    </div>
+                    <div class="hours">
+                        <h2>&nbsp;</h2>
+                        <h2>Zamknięte</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                        <h2>07:00–19:00</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/upbutton.js"></script>
+    <script src="js/nav.js"></script>
+</html>

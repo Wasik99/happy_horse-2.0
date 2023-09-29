@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>HappyHorse</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="stajnia.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="img/horseicon.png">
+        <style>
+            .top-bar{
+                height: 120px;
+            }
+            .dropdown-content{
+                background-color: rgb(19, 19, 19);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="scrollTop"><img src="img/back.png"></div>
+        <div class="top-bar">
+            <div class="mobile-bar">
+                <img src="img/logo.png" class="logo">
+                <img src="img/menu.png" class="menu-icon" onclick="openNav()">
+            </div>
+            <div id="sidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <a>OFERTA</a>
+                <a href="nauka.html">&nbsp;&nbsp;&nbsp;NAUKA JAZDY</a>
+                <!-- <a href="hotel.html">&nbsp;&nbsp;&nbsp;HOTEL</a> -->
+                <a href="#">NASZA STAJNIA</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </div>
+            <div class="navbar">
+                <img src="img/logo.png" class="logo">
+                <a href="index.html">STRONA GŁÓWNA</a>
+                <div class="dropdown">
+                    <a class="dropbtn">OFERTA</a>
+                    <div class="dropdown-content">
+                      <a href="#">NAUKA JAZDY</a>
+                      <!-- <a href="hotel.html">HOTEL</a> -->
+                    </div>
+                  </div>
+                <a href="#">NASZA STAJNIA</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="actual-location"><a>HOME > NASZA STAJNIA</a></div>
+        </div>
+        <div class="front-title">NASZA<br><a class="front-title_down">STAJNIA</a></div>
+        <img src="img/Line2.png" class="line" >
+        <img src="img/Line-mobile.png" class="line-mobile" style="margin-top: 50px;">
+        <div class="nauka-opis">
+            <h1>IN PROGRESS</h1>
+        </div>
+        <script src="js/nav.js"></script>
+    </body>
+</html>

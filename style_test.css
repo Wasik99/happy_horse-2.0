@@ -1,0 +1,73 @@
+<div class="instruktorzy">
+                <h1>Kontakty do instruktorów</h1>
+                <div class="container-instruktorzy">
+                <div class="instr-kontakt" onmouseover="showOn()" onmouseleave="showOff()">
+                    <img src="img/instruktorzy/Martyna.jpg">
+                    <a><b>Martyna</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 784 390 145</a>
+                </div>
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/Iza.jpg">
+                    <a><b>Iza</b> (kierownik)</a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 507 274 463</a>
+                </div>
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/nina.jpg">
+                    <a><b>Nina</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 792 920 979</a>
+                </div> 
+                <div class="instr-kontakt">
+                    <img src="img/instruktorzy/julia.jpg">
+                    <a><b>Julia</b></a><br>
+                    <a style="color:rgba(0, 0, 0, 0.650);">tel: 792 920 979</a>
+                </div>
+                </div>
+                <div class="grafik-text">W sprawie zapisów na dany termin prosimy o kontakt z instruktorem prowadzącym wtedy zajęcia.<br>
+                    Przy problemach z dodzwonieniem się prosimy o SMS :D ogarniemy.<br><br>
+                    W sprawach 'innych' lub w razię wątpliwości prosimy o kontakt z kierownikiem stajni - <b>Panią Izą</b>
+                </div>
+            </div>
+
+
+            .instruktorzy{
+              /* margin-right: -20px; */
+              width: 1050px;
+              margin: 0 auto;
+              clear: right;
+              /* text-align: left; */
+              background-color: #EBC475;
+            }
+            .instruktorzy h1{
+              font-family: 'Lora', sans-serif;
+              font-weight: 300;
+              font-size: 30px;
+              color:white;
+              text-align: left;
+            }
+            .container-instruktorzy{
+              background-color: green;
+            }
+            .instr-kontakt{
+              background-color:rgb(255, 255, 255);
+              display: inline-block;
+              text-align: left;
+              /* margin-right: 20px; */
+              height: 270px;
+              width: 200px;
+              border-radius: 20px;
+              -webkit-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+              -moz-box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+              box-shadow: 0px 0px 8px -4px rgb(141, 141, 141);
+            }
+            .instr-kontakt img{
+              width: 200px;
+              border-radius: 20px 20px 35px 0px;
+              margin-bottom: 10px;
+            }
+            .instr-kontakt a{
+              color: black;
+              margin: 0 auto;
+              margin-top: 30px;
+              font-size: 18px;
+              padding-left: 10px;
+            }
